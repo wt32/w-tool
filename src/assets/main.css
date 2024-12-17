@@ -1,0 +1,22 @@
+html,body{
+    user-select: none;
+}
+.splitpanes--vertical>.splitpanes__splitter {
+    width: 6px;
+    margin: 0px 4px;
+    border-radius: 3px;
+}
+
+.splitpanes--horizontal>.splitpanes__splitter {
+    height: 6px;
+    margin: 4px 0px;
+    border-radius: 3px;
+}
+
+.splitpanes--vertical>.splitpanes__splitter:hover {
+    background-color: rgba(106, 106, 255, 0.524);
+}
+
+.splitpanes--horizontal>.splitpanes__splitter:hover {
+    background-color: rgba(106, 106, 255, 0.524);
+}
